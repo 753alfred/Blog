@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <div id="headers"></div>
+    <h1>TEST</h1>
+    <div id="footers"></div>
+  </body>
+  <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $("#headers").load("include/headers.html");
+      $("#footers").load("include/footers.html");
+    });
+  </script>
+</html>
